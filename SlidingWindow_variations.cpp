@@ -174,7 +174,10 @@ public:
 		// Write your code here.
 		// init
 		que.clear();
+		res.clear();
+		resIndex = 0;
 		row = matrix.size();
+		visited.clear();
 		visited.resize(row);
 
 		for (int i = 0; i < matrix.size(); i++)
